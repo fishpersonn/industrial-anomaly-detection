@@ -144,16 +144,31 @@ Under the measured test configuration, OpenVINO achieved approximately **1.78× 
 
 **Limitations:** These results are preliminary. CPU thread settings and exact model preprocessing/postprocessing equivalence have not been fully validated. The speed ratio should not be interpreted as a controlled production-deployment speedup.
 
+### 🖥️ Experimental Environment
+
+| Component | Specification |
+|---|---|
+| CPU | Intel Core i7-10750H @ 2.60 GHz |
+| CPU Cores / Threads | 6 Cores / 12 Threads |
+| Operating System | Windows |
+| Python | 3.10 |
+| PyTorch | 2.14.1 (CPU) |
+| Anomalib | 2.7.0 |
+| OpenVINO | 2026.4.1 |
+| Input Shape | [2, 3, 256, 256] |
+| Warm-up Iterations | 10 |
+| Benchmark Iterations | 30 |
+
+**Note:** PyTorch used 4 intra-op CPU threads, while OpenVINO used its default CPU configuration. The measured 1.78× speed ratio is preliminary and not yet a fully controlled comparison.
+
 ## 📦 Installation
 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/industrial-anomaly-detection.git
+git clone https://github.com/fishpersonn/industrial-anomaly-detection.git
 cd industrial-anomaly-detection
 ```
-
-Replace `YOUR_USERNAME` with your GitHub username after creating the repository.
 
 ### 2. Create Virtual Environment
 
