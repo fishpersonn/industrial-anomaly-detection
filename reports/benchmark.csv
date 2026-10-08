@@ -1,0 +1,3 @@
+runtime,batch_size,input_size,latency_ms,throughput_fps
+PyTorch,2,256x256,989.74,2.02
+OpenVINO,2,256x256,556.03,3.6

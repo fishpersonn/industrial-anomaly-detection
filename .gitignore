@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# data
+datasets/
+
+# model
+results/
+
+# IDE
+.vscode/
+
+# system
+.DS_Store
+Thumbs.db

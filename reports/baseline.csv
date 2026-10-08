@@ -1,0 +1,2 @@
+﻿runtime,batch_size,input_size,latency_ms,throughput_fps
+OpenVINO,2,256x256,621.93,3.22
