@@ -85,6 +85,14 @@ The MVTec AD dataset contains industrial inspection images with normal and defec
 
 ## 🖼️ Anomaly Detection Visualization
 
+<div align="center">
+
+![PatchCore Anomaly Detection](assets/bottle_detection.png)
+
+*PatchCore anomaly detection on the MVTec AD Bottle dataset.*
+
+</div>
+
 The following visualization components were generated during model evaluation:
 
 | Visualization | Description |
